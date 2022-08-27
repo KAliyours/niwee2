@@ -1,0 +1,292 @@
+/* #title{
+ background-color: #dacaaf
+} */
+.navbar {
+  background-color: #dacaaf;
+  color: #ffffff;
+  font-family: 'Montserrat, sans-serif';
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 700;
+  height: 100px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Formating for Text and Box opposite pictures */
+/* Blue-Violet Background Text */
+.word-block1 {
+  background-color: #5e17eb;
+  color: #ffffff;
+  display: block;
+  width: 500px;
+  height: 400px;
+  padding: 2%
+}
+
+/* Green Background Text */
+.word-block2 {
+  background-color: #008037;
+  color: #ffffff;
+  display: block;
+  width: 500px;
+  height: 400px;
+  padding: 2%
+}
+
+.contactformpic {
+  position: relative;
+  height: 100px;
+  width: 200px;
+  top: 20px;
+  left: 30px;
+}
+
+.btn {
+  background-color: #ff1616;
+  color: #ffffff;
+  ms-auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconborder {
+  padding: 2%;
+}
+
+/* .container-fluid {
+ padding: 7% 15%;
+} */
+.containerWhyNiwee {
+  background-color: #ffbd59;
+  color: #ffffff;
+  padding-bottom: 5%;
+}
+
+.Elder {
+  width: 600px;
+  height: 500px;
+  /* padding: 5%; */
+  align-items: center;
+  justify-content: center;
+}
+
+.textwhyniwee {
+  padding: 3%;
+}
+
+.contactpgstyle {
+  background-color: #008037;
+  color: #ffffff;
+}
+
+.SM-icons {
+  align-content: center;
+  padding: 5% 5%;
+}
+
+AboutUs1 {
+  align-content: flex-start;
+  padding: 10%;
+}
+
+.appform {
+  background: #dacaaf;
+  padding: 5% 10%;
+  width: 800px;
+  height: 900px;
+  margin-left: 20%;
+}
+.membershippg{
+  background-color: #dacaaf;
+}
+/* Fonts */
+h1 {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: center;
+  padding: 5%;
+}
+
+h2 {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: center;
+  padding: 4% 4%;
+}
+
+h3 {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+row {
+  /* padding: 10% 20%; */
+}
+
+.logo {
+  width: 120px;
+  height: 80px;
+}
+
+.hp-bkg {
+  width: 1260px;
+  height: 800px;
+}
+
+.homepage {
+  width: 500px;
+  height: 400px;
+  padding: 5%;
+  /* backgroud-color: #5e17eb; */
+}
+
+.band {
+  width: 155px;
+  height: 400px;
+}
+
+.band1 {
+  width: 155px;
+  height: 400px;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hp-catchphrase {
+  background-color: #ffbd59;
+  height: 220px;
+  width: 400px;
+  /* display: absolute;
+  margin-right: auto; */
+  /* Bottom right text */
+  position: absolute;
+  bottom: 80px;
+  left: 60px;
+}
+
+.peopleInNiWee {
+  height: 1200px;
+  width: 900px;
+}
+
+input[type=submit] {
+  background-color: #ff1616;
+  padding-left: 40px;
+}
+
+.contactform{
+  background-color: #008037;
+  color: #ffffff;
+  padding: 5% 10%;
+  width: 800px;
+  height: 850px;
+  margin-left: 20%;
+}
+
+/* form */
+form.form-example {
+  display: table;
+  margin-left: auto;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label, input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+/* Creating a form */
+/* * {box-sizing: border-box} */
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #ffbd59;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border:
+    cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #ffbd59;
+  text-align: center;
+}
+
+/* End of CSS creating a form */
